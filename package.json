@@ -1,0 +1,24 @@
+{
+  "name": "web_project",
+  "version": "1.0.0",
+  "description": "web_project",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcecelja/Web_project.git"
+  },
+  "keywords": [
+    "web_project"
+  ],
+  "author": "David Cecelja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidcecelja/Web_project/issues"
+  },
+  "homepage": "https://github.com/davidcecelja/Web_project#readme"
+}

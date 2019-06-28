@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.csskil">
+    <link rel="stylesheet" href="/assets/css/bundle.min.css">
+
+    <title>Ana Cecelja CONSULTING</title>
+  </head>
+  <body class="home-page">
+    <!-- BEGIN MAIN NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-black sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          Ana Cecelja 
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-right" href="#">Ponuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-right" href="#">Reference</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-right" href="#">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-right" href="#" data-toggle="modal" data-target="#loginModal">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END MAIN NAVIGATION -->
+    <!--BEGIN HERO AREA-->
+    <div class="jumbotron text-center">
+      <div class="container-fluid">
+       <div class="row">
+         <div class="col-lg-8 offset-lg-2">
+          <h1 class="display-4">PROJEKTI</h1>
+          <p class="lead">Pisanje projekata. Provedba. Consulting</p>
+          <a class="btn btn-primary btn-sm" href="#" role="button">Saznajte više</a>
+         </div>
+       </div>
+      </div>
+    </div>
+    <!--END HERO AREA-->
+    <!--BEGIN CONTENT AREA-->
+    <main>
+      <section>
+        <div class="container">
+          <header class="text-center mb-5">
+            <h1>EU Fondovi</h1>
+            <h6 class="subtitle">Povlačenje sredstava iz EU i nacionalnih fondova.</h6>
+          </header>
+          <div class="row">
+            <div class="col-lg-4">
+              <article class="text-center">
+                <div class="icon-box mb-3 rounded-circle">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                  <div class="mb-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit consequuntur ut excepturi quam odio blanditiis impedit, suscipit quos, ab a eaque ipsam quia eligendi nesciunt odit sit reiciendis iure?
+                    </div>
+                    <a href="#" class="btn btn-primary">Više</a>
+              </article>
+            </div>
+            <div class="col-lg-4">
+                <article class="text-center">
+                    <div class="icon-box mb-3 rounded-circle">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                      <div class="mb-3">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit consequuntur ut excepturi quam odio blanditiis impedit, suscipit quos, ab a eaque ipsam quia eligendi nesciunt odit sit reiciendis iure?
+                        </div>
+                        <a href="#" class="btn btn-primary">Više</a>
+                  </article>
+            </div>
+            <div class="col-lg-4">
+                <article class="text-center">
+                    <div class="icon-box mb-3 rounded-circle">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                      <div class="mb-3">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit consequuntur ut excepturi quam odio blanditiis impedit, suscipit quos, ab a eaque ipsam quia eligendi nesciunt odit sit reiciendis iure?
+                        </div>
+                        <a href="#" class="btn btn-primary">Više</a>
+                  </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner"></section>
+    </main>
+    <!--END CONTENT AREA-->
+    <!-- BEGIN LOGIN MODAL -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+        <form id="loginForm" data-parsley-validate>
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Sign In</h5>
+              </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary">Sign In</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+    <!-- END LOGIN MODAL -->
+    <!-- JavaScript -->
+    <script src="/assets/js/bundle.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      App.init({
+        login: true
+      });
+    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+.card{
+    background: transparent no-repeat center center;
+    background-color: silver;
+    background-size: cover;
+    text-shadow: 0 0 5px $white;
+    border-radius: 15px;
+
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+      }
+    
+    .card-body {
+        // Enable `flex-grow: 1` for decks and groups so that card blocks take up
+        // as much space as possible, ensuring footers are aligned to the bottom.
+        flex: 1 1 auto;
+        flex-grow: 1;
+        padding: $card-spacer-x;
+        color: $card-color;
+      } 
+    // Card image
+    .card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: $card-img-overlay-padding;
+    }
+  
+    .card-img {
+    width: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
+    @include border-radius($card-inner-border-radius);
+    }    
+}

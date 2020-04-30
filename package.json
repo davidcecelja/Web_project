@@ -15,7 +15,7 @@
     "gulp-sync": "^0.1.4",
     "gulp-terser": "^1.2.0",
     "htmlclean": "^3.0.8",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "parsleyjs": "^2.9.1",
     "slick-carousel": "^1.8.1"
   },
